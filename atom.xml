@@ -6,7 +6,7 @@
   <link href="https://leoingru.github.io/atom.xml" rel="self"/>
   
   <link href="https://leoingru.github.io/"/>
-  <updated>2024-10-30T02:55:05.161Z</updated>
+  <updated>2024-10-30T03:04:37.828Z</updated>
   <id>https://leoingru.github.io/</id>
   
   <author>
@@ -15,6 +15,19 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://leoingru.github.io/2024/10/30/test/"/>
+    <id>https://leoingru.github.io/2024/10/30/test/</id>
+    <published>2024-10-30T03:04:37.000Z</published>
+    <updated>2024-10-30T03:04:37.828Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
