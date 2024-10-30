@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>{{ config.title }}</title>
+    <description>{{ config.description }}</description>
+    <link href="{{ url }}/atom.xml" rel="self"/>
+    <updated>{{ date }}</updated>
+    <author>
+        <name>{{ config.author }}</name>
+        <email>{{ config.email }}</email>
+    </author>
+
+    {% for post in posts %}
+    <entry>
+        <title>{{ post.title }}</title>
+        <link href="{{ post.permalink }}"/>
+        <id>{{ post.permalink }}</id>
+        <updated>{{ post.updated }}</updated>
+        <summary>{{ post.excerpt }}</summary> <!-- 可以修改为其他字段 -->
+        <content><![CDATA[{{ post.content }}]]></content>
+    </entry>
+    {% endfor %}
+</feed>
