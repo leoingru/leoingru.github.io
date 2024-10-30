@@ -45,4 +45,16 @@
         <debug>Title: , Permalink: </debug>
     </entry>
     
+    <entry>
+        <id></id>
+        <title></title>
+        <link href=""/>
+        <updated></updated>
+        <published></published>
+        <summary type="html"></summary> <!-- 或者使用 post.content -->
+        <content type="html"><![CDATA[]]></content>
+        <!-- 调试输出 -->
+        <debug>Title: , Permalink: </debug>
+    </entry>
+    
 </feed>
