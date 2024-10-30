@@ -28,4 +28,13 @@
         <content><![CDATA[]]></content>
     </entry>
     
+    <entry>
+        <title></title>
+        <link href=""/>
+        <id></id>
+        <updated></updated>
+        <summary></summary> <!-- 可以修改为其他字段 -->
+        <content><![CDATA[]]></content>
+    </entry>
+    
 </feed>
