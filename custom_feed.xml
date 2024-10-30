@@ -11,12 +11,13 @@
 
     {% for post in posts %}
     <entry>
+        <id>{{ post.permalink }}</id>
         <title>{{ post.title }}</title>
         <link href="{{ post.permalink }}"/>
-        <id>{{ post.permalink }}</id>
         <updated>{{ post.updated }}</updated>
-        <summary>{{ post.excerpt }}</summary> <!-- 可以修改为其他字段 -->
-        <content><![CDATA[{{ post.content }}]]></content>
+        <published>{{ post.date }}</published>
+        <summary type="html">{{ post.excerpt }}</summary> <!-- 或者使用 post.content -->
+        <content type="html"><![CDATA[{{ post.content }}]]></content>
     </entry>
     {% endfor %}
 </feed>

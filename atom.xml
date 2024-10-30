@@ -11,30 +11,33 @@
 
     
     <entry>
+        <id></id>
         <title></title>
         <link href=""/>
-        <id></id>
         <updated></updated>
-        <summary></summary> <!-- 可以修改为其他字段 -->
-        <content><![CDATA[]]></content>
+        <published></published>
+        <summary type="html"></summary> <!-- 或者使用 post.content -->
+        <content type="html"><![CDATA[]]></content>
     </entry>
     
     <entry>
+        <id></id>
         <title></title>
         <link href=""/>
-        <id></id>
         <updated></updated>
-        <summary></summary> <!-- 可以修改为其他字段 -->
-        <content><![CDATA[]]></content>
+        <published></published>
+        <summary type="html"></summary> <!-- 或者使用 post.content -->
+        <content type="html"><![CDATA[]]></content>
     </entry>
     
     <entry>
+        <id></id>
         <title></title>
         <link href=""/>
-        <id></id>
         <updated></updated>
-        <summary></summary> <!-- 可以修改为其他字段 -->
-        <content><![CDATA[]]></content>
+        <published></published>
+        <summary type="html"></summary> <!-- 或者使用 post.content -->
+        <content type="html"><![CDATA[]]></content>
     </entry>
     
 </feed>
