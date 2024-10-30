@@ -6,7 +6,6 @@
     <updated>{{ date }}</updated>
     <author>
         <name>{{ config.author }}</name>
-        <email>{{ config.email }}</email>
     </author>
 
     {% for post in posts %}
@@ -18,6 +17,8 @@
         <published>{{ post.date }}</published>
         <summary type="html">{{ post.content }}</summary> <!-- 或者使用 post.content -->
         <content type="html"><![CDATA[{{ post.content }}]]></content>
+        <!-- 调试输出 -->
+        <debug>Title: {{ post.title }}, Permalink: {{ post.permalink }}</debug>
     </entry>
     {% endfor %}
 </feed>
