@@ -16,7 +16,7 @@
         <link href="{{ post.permalink }}"/>
         <updated>{{ post.updated }}</updated>
         <published>{{ post.date }}</published>
-        <summary type="html">{{ post.excerpt }}</summary> <!-- 或者使用 post.content -->
+        <summary type="html">{{ post.content }}</summary> <!-- 或者使用 post.content -->
         <content type="html"><![CDATA[{{ post.content }}]]></content>
     </entry>
     {% endfor %}
